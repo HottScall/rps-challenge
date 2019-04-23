@@ -1,7 +1,7 @@
-require 'sinatra/base'
+require 'sinatra'
 
 class RPS < Sinatra::Base
-  enable :sessions 
+  enable :sessions
   get '/' do
     erb :index
   end
